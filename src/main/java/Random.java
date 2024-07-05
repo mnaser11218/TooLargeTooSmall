@@ -67,7 +67,7 @@ public class Random {
     }
     public void runApp(){
         generateRandomNum();
-        System.out.println(randomNumberBetween0To100);
+        //System.out.println(randomNumberBetween0To100);
         while(!exitApp){
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter a number. Your number is between 0 and 100");
